@@ -1,10 +1,8 @@
-# CUDA with CMake 3.8
+# CUDA & OpenCV with CMake 3.8
 
 ```
-cd cmake-cuda-example
+cd cuda-opencv-multithreading-with-cmake
 mkdir build
 cd build
-cmake ../
-make
-./test
+cmake ../ && make && ./test
 ```
