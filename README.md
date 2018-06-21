@@ -1,8 +1,14 @@
 # CUDA & OpenCV with CMake 3.8
 
 ```
-cd cuda-opencv-multithreading-with-cmake
-mkdir build
-cd build
-cmake ../ && make && ./test
+On Linux
+	cd cuda-opencv-multithreading-with-cmake
+	mkdir build
+	cd build
+	cmake ../ && make && ./test
+On Windows
+	cd cuda-opencv-multithreading-with-cmake
+	mkdir build
+	cd build
+	cmake ../ -G"Visual Studio 12 2013" 
 ```
