@@ -11,4 +11,5 @@ On Windows
 	mkdir build
 	cd build
 	cmake ../ -G"Visual Studio 12 2013" 
+	# This creates a Visual Studio project in build directory which you can open in MSVS and run
 ```
